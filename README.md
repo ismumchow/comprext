@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Text Similarity App
+The Text Similarity App is a web application that allows users to compare the similarity between two pieces of text. It utilizes natural language processing techniques to calculate the similarity score and display the results to the user.
 
-## Getting Started
+Installation
+To install the Text Similarity App, you will need to have Python 3.x and pip installed on your system. Then, follow these steps:
 
-First, run the development server:
+Clone this repository to your local machine.
+Navigate to the project directory.
+Run npm -i requirements.txt to install the necessary dependencies.
+Run npm run dev to start the application.
+Usage
+Once you have started the application, open a web browser and navigate to http://localhost:5000. You will see a simple web form with two text areas. Simply enter the two pieces of text that you would like to compare and click the "Compare" button.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The application will then calculate the similarity score and display the results to the user. The similarity score is a number between 0 and 1, where 0 indicates no similarity and 1 indicates identical text.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+How it works
+The Text Similarity App uses the cosine similarity measure to calculate the similarity score between the two pieces of text. The cosine similarity measure compares the angle between the two text vectors in a high-dimensional space, where each dimension corresponds to a word in the text.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Before the cosine similarity measure is applied, the text is preprocessed to remove stop words, punctuation, and other noise. The remaining words are then transformed into numerical vectors using the Term Frequency-Inverse Document Frequency (TF-IDF) technique, which gives more weight to words that are more important in the text.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+Contributing
+We welcome contributions to the Text Similarity App. If you would like to contribute, please fork this repository and submit a pull request with your changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License
+The Text Similarity App is released under the MIT License. See LICENSE for details.
