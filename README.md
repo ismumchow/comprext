@@ -1,8 +1,5 @@
-#Text Similarity App
-The Text Similarity App is a web application that allows users to compare the similarity between two pieces of text. It utilizes natural language processing techniques to calculate the similarity score and display the results to the user.
-
-Installation
-To install the Text Similarity App, you will need to have Python 3.x and pip installed on your system. Then, follow these steps:
+# Comprext
+## The Text Similarity App is a web application that allows users to compare the similarity between two pieces of text. It utilizes natural language processing techniques to calculate the similarity score and display the results to the user.
 
 Clone this repository to your local machine.
 Navigate to the project directory.
