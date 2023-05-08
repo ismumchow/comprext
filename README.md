@@ -1,4 +1,4 @@
-Text Similarity App
+#Text Similarity App
 The Text Similarity App is a web application that allows users to compare the similarity between two pieces of text. It utilizes natural language processing techniques to calculate the similarity score and display the results to the user.
 
 Installation
