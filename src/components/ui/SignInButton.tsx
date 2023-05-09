@@ -2,7 +2,7 @@
 
 import { signIn } from 'next-auth/react'
 import { FC, useState } from 'react'
-import  Button  from '@/components/ui/Button'
+import  {Button}  from '@/components/ui/Button'
 import { toast } from '@/ui/Toast'
 
 /**

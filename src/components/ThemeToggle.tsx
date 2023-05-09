@@ -2,7 +2,7 @@
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger }  from '@/ui/DropdownMenu'
 import { useTheme } from 'next-themes'
 import { FC } from 'react'
-import Button from '@/ui/Button'
+import { Button } from '@/ui/Button'
 import { Laptop, Moon, Sun } from 'lucide-react'
 import { Icons } from '@/components/Icons'
 
