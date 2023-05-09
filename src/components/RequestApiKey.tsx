@@ -10,9 +10,9 @@ import LargeHeading from './ui/LargeHeading'
 import Paragraph from './ui/Paragraph'
 import { toast } from '@/ui/Toast'
 
-interface RequestApiKeyProps {}
 
-const RequestApiKey: FC<RequestApiKeyProps> = ({}) => {
+
+const RequestApiKey:FC = () => {
   const [isCreating, setIsCreating] = useState<boolean>(false)
   const [apiKey, setApiKey] = useState<string | null>(null)
 
