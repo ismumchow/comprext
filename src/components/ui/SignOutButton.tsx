@@ -10,9 +10,8 @@ import { toast } from '@/ui/Toast'
  * hence this unreusable component.
  */
 
-interface SignOutButtonProps {}
 
-const SignOutButton: FC<SignOutButtonProps> = ({}) => {
+const SignOutButton: FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const signUserOut = async () => {

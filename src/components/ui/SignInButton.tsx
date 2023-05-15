@@ -10,9 +10,7 @@ import { toast } from '@/ui/Toast'
  * hence this unreusable component.
  */
 
-interface SignInButtonProps {}
-
-const SignInButton: FC<SignInButtonProps> = ({}) => {
+const SignInButton: FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const signInWithGoogle = async () => {

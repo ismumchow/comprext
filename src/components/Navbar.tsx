@@ -14,11 +14,11 @@ const Navbar = async () => {
         <Link href="/" className={buttonVariants({ variant: "link" })}>
           <div className="font-medium text-2xl antialiased"> Comprext </div>
         </Link>
-
+        {/* Mobile menu */}
         <div className="md:hidden">
           <ThemeToggle />
         </div>
-
+        {/* Desktop menu */}
         <div className="hidden md:flex gap-4">
           <ThemeToggle />
           <Link
