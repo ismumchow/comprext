@@ -6,7 +6,7 @@ Navigate to the project directory.
 Run npm -i requirements.txt to install the necessary dependencies.
 Run npm run dev to start the application.
 Usage
-Once you have started the application, open a web browser and navigate to http://localhost:5000. You will see a simple web form with two text areas. Simply enter the two pieces of text that you would like to compare and click the "Compare" button.
+Once you have started the application, open a web browser and navigate to http://localhost:3000. You will see a simple web form with two text areas. Simply enter the two pieces of text that you would like to compare and click the "Compare" button.
 
 The application will then calculate the similarity score and display the results to the user. The similarity score is a number between 0 and 1, where 0 indicates no similarity and 1 indicates identical text.
 
@@ -20,3 +20,5 @@ We welcome contributions to the Text Similarity App. If you would like to contri
 
 License
 The Text Similarity App is released under the MIT License. See LICENSE for details.
+
+
