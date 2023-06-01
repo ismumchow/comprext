@@ -1,7 +1,7 @@
 import { withMethods } from '@/lib/api-middlewares/with-methods'
 import { authOptions } from '@/lib/auth'
 import { db } from '@/lib/db'
-import { CreateApiData } from '@/types/key'
+import { CreateApiData } from '@/types/api/key'
 import { nanoid } from 'nanoid'
 import { NextApiRequest, NextApiResponse } from 'next'
 import { getServerSession } from 'next-auth'
